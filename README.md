@@ -43,7 +43,7 @@ De Home page:
 <img src="images/F1Home.png" width="375px" alt="De home page van de officiële F1 website.">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Daniel Ricciardo Page 
+Daniel Ricciardo Page:
 <img src="images/page2.png" width="375px" alt="De pagina van Daniel Riccardo.">
  
 </details>
@@ -58,7 +58,7 @@ Daniel Ricciardo Page
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/breakdownschets.png" width="375px" alt="breakdown van de hele home pagina en de Daniel Riccardo Page">
+<img src="images/Breakdownschets.png" width="375px" alt="breakdown van de hele home pagina en de Daniel Riccardo Page">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
