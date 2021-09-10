@@ -39,12 +39,12 @@ Responsive
 De website die ik ga namaken is de F1 Website: https://www.formula1.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-De home page:  
+De Home page:  
 <img src="images/F1Home.png" width="375px" alt="De home page van de officiële F1 website.">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/F1Schedule.png" width="375px" alt="De pagina waarop het schema van Formule 1 vermeld staat.">
+Daniel Ricciardo Page 
+<img src="images/page2.png" width="375px" alt="De pagina van Daniel Riccardo.">
  
 </details>
 
@@ -58,7 +58,7 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschets.png" width="375px" alt="breakdown van de hele home pagina en de Daniel Riccardo Page">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
