@@ -1,0 +1,183 @@
+*, *::after, *::before {
+    box-sizing:border-box;  
+  }
+
+  :root {
+    --primary-color: #df1f26;
+    --secondary-color: #000000;
+    --tertiary-color: #1e1f27;
+    --text-color:white;
+    --background-color: #f7f4f2;
+    --background-color2:white;
+  }
+
+  body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: var(--background-color);
+  }
+
+  section {
+    background-color: var(--background-color2);
+  }
+
+  /* Styling Nav bar Top */
+
+  header nav {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header nav img:last-of-type {
+    align-self: flex-end;
+    margin-bottom: 0.65em;
+    margin-right: 0.65em;
+    border-radius: 0.5em;
+
+  }
+
+  header nav img:nth-of-type(2) {
+    margin-bottom: 0.35em;
+  }
+
+/* Styling Header Calender (Italy) */
+
+header section {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  margin-top: -1.2em;
+}
+
+header section h2 {
+  font-size: 1em;
+
+}
+
+header section img {
+  width: 78.5px;
+  height: 72.5px;
+  margin-left: 0.5em;
+}
+
+header section section {
+  background-color: var(--tertiary-color);
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 2em;
+}
+
+header section section h2 {
+  background-color: #383940;
+  padding: 0.2em;
+  font-weight: 100;
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+/* Styling Daniel Ricciardo */
+
+main section:first-of-type {
+  display: flex;
+  flex-direction: column;
+}
+
+main section:first-of-type img:first-of-type {
+  order: -2;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-top: 3em;
+}
+
+main section:first-of-type h1 {
+  font-weight: 800;
+  margin-top: -0.5em;
+  margin-left: 0.5em;
+  border-bottom: 1px solid gray;
+}
+
+main section:first-of-type h2 {
+  font-weight: 600;
+  color: gray;
+  order: -1;
+  margin-left: 0.5em;
+}
+
+main section:first-of-type img:last-of-type {
+  width: 172px;
+  height: 152,5px; 
+}
+
+main section:first-of-type p {
+  color: var(--primary-color);
+  font-weight: 800;
+  font-size: 1.2em;
+  align-self: flex-end;
+  position: absolute;
+  top: 56.5em;
+  right: 3em;
+}
+
+main section:first-of-type section {
+  display: flex;
+}
+
+main section:first-of-type ul {
+  list-style: none;
+  flex-direction: row;
+}
+
+main section:first-of-type ul:first-of-type {
+  font-weight: 800;
+  font-size: 1em;
+  margin-left: -1.5em;
+}
+
+main section:first-of-type ul:last-of-type {
+  color: gray;
+  font-size: 1em;
+  margin-left: 0;
+  position: absolute;
+  left: 10em;
+  top: 79.15em;
+}
+
+/* Styling News */
+
+main section:nth-of-type(2) {
+  background-color: var(--background-color);
+}
+
+main section:nth-of-type(2) ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.1em;
+  margin-left: -2.5em;
+}
+
+main section:nth-of-type(2) li {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--background-color2);
+  flex-shrink: 3;
+}
+
+main section:nth-of-type(2) li img {
+  order: -2;
+}
+
+main section:nth-of-type(2) h1 {
+  font-size: 1em;
+}
+
+main section:nth-of-type(2) h2:first-of-type {
+  font-size: 0.9em;
+  color: gray;
+}
+
+main section:nth-of-type(2) h2:last-of-type {
+  font-size: 0.7em;
+  color: gray;
+}
