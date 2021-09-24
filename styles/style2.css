@@ -47,33 +47,82 @@ header section {
   background-color: var(--secondary-color);
   color: var(--text-color);
   margin-top: -1.2em;
+  padding-bottom: 1em;
+}
+
+header section h1 {
+  font-size: 1.5em;
+  position: relative;
+  left: 3.5em;
+  top: 2em;
 }
 
 header section h2 {
   font-size: 1em;
-
+  position: absolute;
+  left: 1em;
+  top: 3.3em;
 }
 
-header section img {
-  width: 78.5px;
-  height: 72.5px;
-  margin-left: 0.5em;
+.MonzaCircuit {
+  width: 41px;
+  height: 32px;
+  position: relative;
+  left: 1em;
+  top: -0.5em;
 }
 
-header section section {
+header section article {
   background-color: var(--tertiary-color);
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
   border-radius: 2em;
+  position: relative;
+  margin-top: 0.5em;
 }
 
-header section section h2 {
+header section article div:first-of-type p:first-of-type {
+  font-weight: 800;
+  font-size: 1.5em;
+  position: relative;
+  top: -0.3em;
+  left: 1.95em;
+}
+
+header section article div:first-of-type p:last-of-type {
+  color: gray;
+  position: relative;
+  top: -2.8em;
+  left: 3.4em;
+  font-weight: 100;
+  font-size: 0.9em;
+}
+
+header section article h3 {
+  font-size: 0.8em;
   background-color: #383940;
-  padding: 0.2em;
+  padding: 0.4em;
   font-weight: 100;
   text-align: center;
   border-radius: 0.5em;
+  margin-left: 2em;
+  margin-right: 13em;
+  margin-top: -1em;
+  position: relative;
+  top: 1em;
 }
+
+header section article div:last-of-type {
+  background-color: var(--background-color2);
+  margin-left: 12em;
+  margin-top: -9.3em;
+  padding: 10px 10px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 30px 30px 0;
+}
+
 
 /* Styling Daniel Ricciardo */
 
@@ -91,21 +140,33 @@ main section:first-of-type img:first-of-type {
   margin-top: 3em;
 }
 
-main section:first-of-type h1 {
+main section:first-of-type img:last-of-type {
+  order: -2;
+  height: 21px;
+  width: 30px;
+  border-radius: 0.3em;
+  position: absolute;
+  top: 47.6em;
+  left: 3em;
+}
+
+main section:first-of-type h2 {
   font-weight: 800;
   margin-top: -0.5em;
   margin-left: 0.5em;
   border-bottom: 1px solid gray;
 }
 
-main section:first-of-type h2 {
+main section:first-of-type h3 {
+  font-size: 1.5em;
   font-weight: 600;
   color: gray;
   order: -1;
   margin-left: 0.5em;
+  margin-top: 0.5em;
 }
 
-main section:first-of-type img:last-of-type {
+main section:first-of-type img:nth-of-type(2) {
   width: 172px;
   height: 152,5px; 
 }
@@ -116,7 +177,7 @@ main section:first-of-type p {
   font-size: 1.2em;
   align-self: flex-end;
   position: absolute;
-  top: 56.5em;
+  top: 44.5em;
   right: 3em;
 }
 
@@ -140,8 +201,8 @@ main section:first-of-type ul:last-of-type {
   font-size: 1em;
   margin-left: 0;
   position: absolute;
-  left: 14em;
-  top: 79.15em;
+  left: 11em;
+  top: 63.1em;
 }
 
 /* Styling News */
@@ -160,38 +221,50 @@ main section:nth-of-type(2) ul {
 }
 
 main section:nth-of-type(2) li {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    padding-bottom: 4em;
-    margin: 0.1em;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-bottom: 0.5em;
+  margin: 0.1em;
 }
 
-main section:nth-of-type(2) li img {
+main section:nth-of-type(2) li img:first-of-type {
+  height: 15px;
+  width: 15px;
+  order: -1;
+  position:relative;
+  top: -1.9em;
+  left: 0.7em;
+
+}
+
+main section:nth-of-type(2) li img:last-of-type {
   order: -3;
-  height: 7em;
-  width: 16.5em;
+  height: 61.38px;
 }
 
-main section:nth-of-type(2) h1 {
+main section:nth-of-type(2) h2 {
+  position: relative;
+  top: -2em;
   font-size: 0.95em;
-  margin-left: 0.5em;
+  margin-left: 0.8em;
   font-weight: 600;
 }
 
-main section:nth-of-type(2) h2:first-of-type {
+main section:nth-of-type(2) h3 {
   font-size: 0.8em;
   color: gray;
   order: -2;
-  margin-left: 0.5em;
+  margin-left: 2.7em;
   font-weight: lighter;
-
 }
 
-main section:nth-of-type(2) h2:last-of-type {
+main section:nth-of-type(2) h4 {
   font-size: 0.7em;
   color: gray;
-  margin-left: 0.8em;
+  position: relative;
+  top: -2em;
+  left: 1.4em;
 }
 
 /* Styling Biography */ 
@@ -199,6 +272,8 @@ main section:nth-of-type(2) h2:last-of-type {
 main section:nth-last-of-type(3) {
   margin-top: -1.9em;
   margin-left: 0.1em;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 
 main section:nth-last-of-type(3) h2 {
@@ -209,4 +284,78 @@ main section:nth-last-of-type(3) h2 {
 main section:nth-last-of-type(3) p {
   text-align: left;
   margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+/* Styling Images Biography */
+
+main section:nth-of-type(4){
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+  margin-left: 0.1em;
+  margin-top: -0.1em;
+}
+
+
+main section:nth-of-type(4) img:first-of-type {
+  width: 340px;
+  height: 191.25px;
+  position: relative;
+  left: 0.2em;
+}
+
+main section:nth-of-type(4) img:last-of-type {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 18.3em;
+  top: 174em;
+}
+
+main section:nth-of-type(4) p {
+  color: gray;
+  position: relative;
+  left: 0.8em;
+  font-size: 0.9em;
+}
+
+main section:nth-of-type(4) p::first-letter {
+  font-weight: 800;
+  color: var(--secondary-color);
+  font-size: 1.4em;
+}
+
+/* Styling "You might also like" Section */
+
+main section:nth-of-type(5) {
+  background-color: var(--background-color);
+}
+
+main section:nth-of-type(5) h2 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  position: relative;
+  left: 0.2em;
+}
+
+main section:nth-of-type(5) img {
+  position: relative;
+  left: 0.8em;
+  border-radius: 0 0 15px 15px;
+}
+
+main section:nth-of-type(5) h3 {
+  color: var(--background-color2);
+  position: absolute;
+  top: 183.5em;
+  left: 2em;
+}
+
+main section:nth-of-type(5) h4 {
+  color: rgb(154, 156, 158);
+  font-size: 0.75em;
+  text-transform: uppercase;
+  position: absolute;
+  top: 284.5em;
+  left: 4.5em;
 }
