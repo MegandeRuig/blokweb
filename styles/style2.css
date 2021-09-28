@@ -22,54 +22,58 @@
 
   /* Styling Nav bar Top */
 
-  header nav {
-    background-color: var(--primary-color);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+header nav {
+  background-color: var(--primary-color);
+  position: sticky;
+  top: 0;
+}
 
-  header nav img:last-of-type {
-    align-self: flex-end;
-    margin-bottom: 0.65em;
-    margin-right: 0.65em;
-    border-radius: 0.5em;
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-  }
-
-  header nav img:nth-of-type(2) {
-    margin-bottom: 0.35em;
-  }
+.menubutton {
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5em;
+  margin-top: 0.7em;
+  margin-right: 2em;
+}
 
 /* Styling Header Calender (Italy) */
 
 header section {
   background-color: var(--secondary-color);
   color: var(--text-color);
-  margin-top: -1.2em;
+  margin-top: -1.3em;
   padding-bottom: 1em;
+}
+
+.CircuitInfo {
+  display: flex;
 }
 
 header section h1 {
   font-size: 1.5em;
-  position: relative;
-  left: 3.5em;
-  top: 2em;
+  margin-top: 2.5em;
+  margin-left: -2em;
 }
 
 header section h2 {
   font-size: 1em;
-  position: absolute;
-  left: 1em;
-  top: 3.3em;
+  order: -1;
+  align-self: flex-start;
+  margin-left: 1em;
 }
 
 .MonzaCircuit {
   width: 41px;
   height: 32px;
-  position: relative;
-  left: 1em;
-  top: -0.5em;
+  margin-top: 3.8em;
+  margin-left: -11em;
 }
 
 header section article {
@@ -77,49 +81,57 @@ header section article {
   margin-left: 0.5em;
   margin-right: 0.5em;
   border-radius: 2em;
-  position: relative;
   margin-top: 0.5em;
+  padding-top: 1.8em;
+  display: flex;
+  flex-direction: column;
+}
+
+header section article div:first-of-type {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  justify-self:flex-start;
+  margin-left: 11.5%;
+  margin-top: -2em;
+  padding-bottom: 2em;
 }
 
 header section article div:first-of-type p:first-of-type {
   font-weight: 800;
   font-size: 1.5em;
-  position: relative;
-  top: -0.3em;
-  left: 1.95em;
 }
 
 header section article div:first-of-type p:last-of-type {
   color: gray;
-  position: relative;
   top: -2.8em;
   left: 3.4em;
   font-weight: 100;
   font-size: 0.9em;
+  margin-top: -2em;
 }
 
 header section article h3 {
   font-size: 0.8em;
   background-color: #383940;
   padding: 0.4em;
+  padding-left: 1em;
+  padding-right: 1em;
   font-weight: 100;
   text-align: center;
-  border-radius: 0.5em;
-  margin-left: 2em;
-  margin-right: 13em;
+  border-radius: 0.8em;
+  align-self: flex-start;
+  margin-left: 10%;
   margin-top: -1em;
-  position: relative;
-  top: 1em;
 }
 
 header section article div:last-of-type {
   background-color: var(--background-color2);
-  margin-left: 12em;
+  margin-left: 0em;
   margin-top: -9.3em;
+  padding-left: 50%;
   padding: 10px 10px 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  align-self: flex-end;
   border-radius: 0 30px 30px 0;
 }
 
@@ -135,8 +147,8 @@ main section:first-of-type {
 
 main section:first-of-type img:first-of-type {
   order: -2;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 3em;
 }
 
@@ -145,9 +157,9 @@ main section:first-of-type img:last-of-type {
   height: 21px;
   width: 30px;
   border-radius: 0.3em;
-  position: absolute;
-  top: 47.6em;
-  left: 3em;
+  align-self: flex-start;
+  margin-top: 1.5em;
+  margin-left: 2.5em;
 }
 
 main section:first-of-type h2 {
@@ -163,12 +175,12 @@ main section:first-of-type h3 {
   color: gray;
   order: -1;
   margin-left: 0.5em;
-  margin-top: 0.5em;
+  margin-top: -1.2em;
 }
 
 main section:first-of-type img:nth-of-type(2) {
-  width: 172px;
-  height: 152,5px; 
+  width: 232px;
+  height: 212,5px; 
 }
 
 main section:first-of-type p {
@@ -176,9 +188,8 @@ main section:first-of-type p {
   font-weight: 800;
   font-size: 1.2em;
   align-self: flex-end;
-  position: absolute;
-  top: 44.5em;
-  right: 3em;
+  margin-top: -8.9em;
+  margin-right: 10%;
 }
 
 main section:first-of-type section {
@@ -187,10 +198,10 @@ main section:first-of-type section {
 
 main section:first-of-type ul {
   list-style: none;
-  flex-direction: row;
 }
 
 main section:first-of-type ul:first-of-type {
+  margin-top: 3em;
   font-weight: 800;
   font-size: 1em;
   margin-left: -1.5em;
@@ -199,10 +210,9 @@ main section:first-of-type ul:first-of-type {
 main section:first-of-type ul:last-of-type {
   color: gray;
   font-size: 1em;
-  margin-left: 0;
-  position: absolute;
-  left: 11em;
-  top: 63.1em;
+  margin-right: 10%;
+  margin-left: 42%;
+  margin-top: -16em;
 }
 
 /* Styling News */
@@ -229,7 +239,7 @@ main section:nth-of-type(2) li {
 }
 
 main section:nth-of-type(2) li img:first-of-type {
-  height: 15px;
+  height: 0.9375em;
   width: 15px;
   order: -1;
   position:relative;
@@ -294,6 +304,14 @@ main section:nth-of-type(4){
   padding-bottom: 0.5em;
   margin-left: 0.1em;
   margin-top: -0.1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -301,22 +319,24 @@ main section:nth-of-type(4) img:first-of-type {
   width: 340px;
   height: 191.25px;
   position: relative;
-  left: 0.2em;
+  align-self: center;
 }
 
 main section:nth-of-type(4) img:last-of-type {
   width: 60px;
   height: 60px;
+  margin-left: -3.75em;
+  margin-top: 4em;
   position: absolute;
-  left: 18.3em;
-  top: 174em;
 }
 
 main section:nth-of-type(4) p {
   color: gray;
-  position: relative;
-  left: 0.8em;
   font-size: 0.9em;
+  justify-content: flex-end;
+  margin-left: 10%;
+  margin-right: auto;
+  text-align: left;
 }
 
 main section:nth-of-type(4) p::first-letter {
@@ -338,6 +358,12 @@ main section:nth-of-type(5) h2 {
   left: 0.2em;
 }
 
+.container2 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 main section:nth-of-type(5) img {
   position: relative;
   left: 0.8em;
@@ -347,8 +373,8 @@ main section:nth-of-type(5) img {
 main section:nth-of-type(5) h3 {
   color: var(--background-color2);
   position: absolute;
-  top: 183.5em;
-  left: 2em;
+  bottom: 7px;
+  left: 25px;
 }
 
 main section:nth-of-type(5) h4 {
@@ -356,6 +382,8 @@ main section:nth-of-type(5) h4 {
   font-size: 0.75em;
   text-transform: uppercase;
   position: absolute;
-  top: 284.5em;
-  left: 4.5em;
+  bottom: 33px;
+  left: 35px;
 }
+
+/* Media Queries */

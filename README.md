@@ -78,7 +78,8 @@ Daniel Ricciardo Page:
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Voor voortgangsgesprek 1 waren beide html pagina's af en was
+er een begin van de header van de "daniel" page.
 
 
 ### Agenda voor meeting
@@ -94,10 +95,12 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- De "h's" moesten in de html opnieuw georderd worden aangezien ik meerdere h1's had gebruikt en dit uiteraard niet
+de bedoeling was. Als gevolg hiervan moesten eigenlijk alle h tags aangepast worden.
+- De nav moest in een ul gezet worden omdat dit er netter uitzag.
+- Verder was de html goed op orde en zaten er geen classes/divs in wat erg goed was.
+- Wat betreft de css waren de selectoren goed op orde en kreeg ik nog enkele tips
+over hoe ik de header in elkaar zou kunnen zetten.
 
 </details>
 
@@ -111,7 +114,9 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+De css voor de "daniel" page was volledig afgemaakt en compleet zodat er feedback
+op gegeven kon worden. De css werkte echter wel alleen nog maar voor de Galaxy S5 (een mobile version)
+waardoor het er op bijv. desktop nog niet goed uitzag. Kortom de responsive kant was nog niet af. 
 
 
 ### Agenda voor meeting
@@ -127,10 +132,10 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- CSS OPSCHONEN: In de css was enorm veel gebruik gemaakt van position absolute/relative, dit moet
+veranderd worden omdat het er responsive niet goed uitziet en er allerlei items
+willekeurig op de pagina zweven.
+- Er moet gebruik worden gemaakt van Flexbox voor de header zodat deze ook responsive er goed uitziet.
 
 </details>
 
