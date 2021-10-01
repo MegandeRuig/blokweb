@@ -277,6 +277,8 @@ main section:nth-of-type(2) h4 {
   left: 1.4em;
 }
 
+/* Styling News States */
+
 /* Styling Biography */ 
 
 main section:nth-last-of-type(3) {
@@ -326,7 +328,7 @@ main section:nth-of-type(4) img:last-of-type {
   width: 60px;
   height: 60px;
   margin-left: -3.75em;
-  margin-top: 4em;
+  margin-top: 25%;
   position: absolute;
 }
 
@@ -334,7 +336,7 @@ main section:nth-of-type(4) p {
   color: gray;
   font-size: 0.9em;
   justify-content: flex-end;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-right: auto;
   text-align: left;
 }
@@ -387,3 +389,429 @@ main section:nth-of-type(5) h4 {
 }
 
 /* Media Queries */
+
+/* Header Styling*/
+
+@media (min-width: 770px) {
+  .MonzaCircuit {
+    margin-left: -11em;
+  }
+}
+
+@media (min-width: 770px) {
+  header section h1 {
+    margin-top: 2.2em;
+    margin-left: -3em;
+    font-size: 1.6em;
+  }
+}
+
+@media (min-width: 770px) {
+  header section h2 {
+    margin-left: 9em;
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 770px) {
+  header section article {
+    margin-left: 9em;
+    margin-right: 9em;
+  }
+}
+
+@media (min-width: 1300px) {
+  header section h2 {
+    margin-left: 19em;
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 1300px) {
+  header section article {
+    margin-left: 20em;
+    margin-right: 20em;
+  }
+}
+
+@media (min-width: 2000px) {
+  header section h2 {
+    margin-left: 37em;
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 2000px) {
+  header section article {
+    margin-left: 40em;
+    margin-right: 40em;
+  }
+}
+
+@media (min-width: 2400px) {
+  header section h2 {
+    margin-left: 42em;
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 2400px) {
+  header section article {
+    margin-left: 45em;
+    margin-right: 45em;
+  }
+}
+
+/* Margin Main*/
+
+@media (min-width: 770px) {
+  main {
+    margin-top: 2em;
+  }
+}
+
+@media (min-width: 1500px) {
+  main {
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 2em;
+  }
+}
+
+@media (min-width: 1600px) {
+  main {
+    margin-left: 8em;
+    margin-right: 8em;
+  }
+}
+
+@media (min-width: 1700px) {
+  main {
+    margin-left: 12em;
+    margin-right: 12em;
+  }
+}
+
+
+@media (min-width: 1800px) {
+  main {
+    margin-left: 15em;
+    margin-right: 15em;
+  }
+}
+
+@media (min-width: 1900px) {
+  main {
+    margin-left: 18em;
+    margin-right: 18em;
+  }
+}
+
+@media (min-width: 2000px) {
+  main {
+    margin-left: 21em;
+    margin-right: 21em;
+  }
+}
+
+@media (min-width: 2100px) {
+  main {
+    margin-left: 24em;
+    margin-right: 24em;
+  }
+}
+
+@media (min-width: 2200px) {
+  main {
+    margin-left: 27em;
+    margin-right: 27em;
+  }
+}
+
+@media (min-width: 2300px) {
+  main {
+    margin-left: 30em;
+    margin-right: 30em;
+  }
+}
+
+/* Daniel Riccardo Image Scaling */
+
+@media (min-width: 770px) {
+  main section:first-of-type img:first-of-type {
+    display: flex;
+    margin-top: 0em;
+    margin-left: 0em;
+    height: 436px;
+    width: 316px;
+  }
+}
+
+@media (min-width: 770px) {
+  main section:first-of-type img:nth-of-type(2) {
+    display: flex;
+    margin-top: 0em;
+    margin-left: 0em;
+  }
+}
+
+@media (min-width: 1300px) {
+  main section:first-of-type img:first-of-type {
+    height: 536px;
+    width: 416px;
+  }
+}
+
+/* Daniel Ricciardo Layout */
+
+@media (min-width: 770px) {
+  main section:first-of-type h2 {
+    font-size: 2.2em ;
+    border: none;
+  }
+}
+
+@media (min-width: 770px) {
+  main section:first-of-type img:nth-of-type(2) {
+    margin-left: 22em;
+    margin-top: -35em;
+    width: 182px;
+    height: 162,5px; 
+  }
+}
+
+@media (min-width: 770px) {
+  main section:first-of-type p {
+    margin-top: -7.9em;
+  }
+}
+
+@media (min-width: 770px) {
+  main section:first-of-type section {
+    margin-left: 25em;
+    margin-bottom: 5em;
+  }
+}
+
+@media (min-width: 1000px) {
+  main section:first-of-type img:nth-of-type(2) {
+    margin-top: -35em;
+    width: 212px;
+    height: 192,5px; 
+  }
+}
+
+@media (min-width: 1000px) {
+  main section:first-of-type p {
+    font-size: 1.5em;
+    margin-top: -7em;
+    margin-right: 7em;
+  }
+}
+
+@media (min-width: 1000px) {
+  main section:first-of-type section {
+    font-size: 1.2em;
+    margin-left: 22em;
+    margin-bottom: 0em;
+  }
+}
+
+@media (min-width: 1100px) {
+  main section:first-of-type p {
+    margin-right: 8.5em;
+  }
+}
+
+@media (min-width: 1200px) {
+  main section:first-of-type p {
+    margin-right: 10.5em;
+  }
+}
+
+@media (min-width: 1300px) {
+  main section:first-of-type img:nth-of-type(2) {
+    margin-left: 30em;
+    margin-top: -42em;
+    width: 262px;
+    height: 242,5px; 
+  }
+}
+
+@media (min-width: 1300px) {
+  main section:first-of-type p {
+    margin-top: -8.1em;
+  }
+}
+
+@media (min-width: 1300px) {
+  main section:first-of-type section {
+    margin-left: 27em;
+    margin-bottom: 5em;
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: 2300px) {
+  main section:first-of-type p {
+    margin-right: 18em;
+  }
+}
+
+/* News Images Height */
+
+@media (min-width: 400px) {
+  main section:nth-of-type(2) li img:last-of-type {
+    height: 71.38px;
+  }
+}
+
+@media (min-width: 500px) {
+  main section:nth-of-type(2) li img:last-of-type {
+    height: 81.38px;
+  }
+}
+
+@media (min-width: 600px) {
+  main section:nth-of-type(2) li img:last-of-type {
+    height: 91.38px;
+  }
+}
+
+@media (min-width: 770px) {
+  main section:nth-of-type(2) li img:last-of-type {
+    height: 131.38px;
+  }
+}
+
+@media (min-width: 900px) {
+  main section:nth-of-type(2) li img:last-of-type {
+    height: 81.38px;
+  }
+}
+
+@media (min-width: 1200px) {
+  main section:nth-of-type(2) li img:last-of-type {
+    height: 101.38px;
+  }
+}
+
+@media (min-width: 1300px) {
+  main section:nth-of-type(2) li img:last-of-type {
+    height: 121.38px;
+  }
+}
+
+@media (min-width: 900px) {
+  main section:nth-of-type(2) ul {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  }
+
+}
+
+/* News Items Font Size/Styling */
+
+@media (min-width: 770px) {
+  main section:nth-of-type(2) {
+    margin-top: -1em;
+  }
+}
+
+@media (min-width: 770px) {
+  main section:nth-of-type(2) li h3 {
+    font-size: 0.9em;
+  }
+}
+
+@media (min-width: 770px) {
+  main section:nth-of-type(2) li img:first-of-type {
+    height: 1.1em;
+    width: 17px;
+    top: -2.2em;
+  }
+}
+
+@media (min-width: 770px) {
+  main section:nth-of-type(2) li h2 {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 770px) {
+  main section:nth-of-type(2) li h4 {
+    font-size: 0.9em;
+  }
+}
+
+@media (min-width: 1300px) {
+  main section:nth-of-type(2) li h3 {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1300px) {
+  main section:nth-of-type(2) li img:first-of-type {
+    height: 1.2em;
+    width: 17px;
+    top: -2.35em;
+  }
+}
+
+@media (min-width: 1300px) {
+  main section:nth-of-type(2) li h2 {
+    font-size: 1.6em;
+    margin-top: 1.5em;
+  }
+}
+
+@media (min-width: 1300px) {
+  main section:nth-of-type(2) li h4 {
+    font-size: 1.1em;
+  }
+}
+
+/* Images Biography Scaling */
+
+@media (min-width: 358px) {
+  main section:nth-of-type(4) img:first-of-type {
+      width: 100%;
+      height: auto;
+  }
+}
+
+/* Biography Font Scaling */
+
+@media (min-width: 770px) {
+  main section:nth-last-of-type(3) p {
+    text-align: left;
+    font-size: 1.2em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+}
+
+@media (min-width: 770px) {
+  main section:nth-last-of-type(3) h2 {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 770px) {
+  main section:nth-of-type(4) p {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 2000px) {
+  main section:nth-of-type(4) p {
+    font-size: 1.3em;
+  }
+}
+
+
+
