@@ -22,6 +22,12 @@
 
   /* Styling Nav bar Top */
 
+header {
+  margin-left: -15px;
+  margin-right: -5px;
+  overflow: hidden;
+}
+
 header > nav:first-of-type {
   background-color: var(--primary-color);
   position: sticky;
@@ -347,6 +353,7 @@ main section:nth-of-type(5) div div:last-of-type {
     align-items: center;
     padding-top: 1em;
     padding-bottom: 0.5em;
+    margin-bottom: 0;
   }
 
   header nav:nth-of-type(2) ul li a {
@@ -444,6 +451,7 @@ main section:nth-of-type(5) div div:last-of-type {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     background-color: var(--primary-color);
+    margin-bottom: 0;
   }
 
   header nav:nth-of-type(3) ul li a {
@@ -468,6 +476,10 @@ main section:nth-of-type(5) div div:last-of-type {
   nav.hamburgermenu{
     display: none!important;
   }
+
+  header {
+    margin-top: -1.55em;
+  }
 }
 
 @media (min-width:1025px) {
@@ -485,13 +497,14 @@ main section:nth-of-type(5) div div:last-of-type {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
-    margin-left: auto;
+    margin-left: -20em;
     background-color: var(--tertiary-color);
     padding-top: 3em;
     padding-bottom: 3em;
     padding-left: 20em;
     list-style-type: none;
     text-decoration: none;
+    margin-top: 0;
   }
 
   header nav:last-of-type ul li {
@@ -502,7 +515,7 @@ main section:nth-of-type(5) div div:last-of-type {
     padding-bottom: 0.5em;
     padding-right: -10em;
     margin-left: 2em;
-    margin-right: 18em;
+    margin-right: 2em;
     border-bottom: 1px solid #949498;
     border-right: 1px solid #949498;
     border-bottom-right-radius: 10px;

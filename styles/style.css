@@ -79,6 +79,11 @@ main article > section:first-of-type h2 {
   margin-right: 0.5em;
 }
 
+main article > section:first-of-type h2 a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
 
 main article > section:first-of-type h3 {
   order: -1;
@@ -126,12 +131,22 @@ main article > section:nth-of-type(2) li p {
   padding-bottom: 0.5em;
 }
 
+main article > section:nth-of-type(2) li p a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
 main article > section:nth-of-type(2) li div {
   border-bottom: 2px solid #d0d0d2;
   border-right: 2px solid #d0d0d2;
   border-bottom-right-radius: 20px;
   margin-top: 1em;
   padding: 0.5em;
+}
+
+main article > section:nth-of-type(2) li div:hover {
+  border-bottom: 2px solid var(--primary-color);
+  border-right: 2px solid var(--primary-color);
 }
 
 /* View Latest News Button */
@@ -144,6 +159,17 @@ main article > section:nth-of-type(2) button {
   color: white;
   background-color: var(--primary-color);
   border-style: none;
+  padding: 0.7em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+main article > section:nth-of-type(2) button:hover {
+  color: var(--primary-color);
+  background-color: var(--background-color2);
+  border: solid 1px var(--primary-color);
   padding: 0.7em;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -219,9 +245,15 @@ main > section:first-of-type p {
   margin-right: 0.5em;
 }
 
+
+main > section:first-of-type p a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
 main > section:first-of-type li {
-  border-bottom: 2px solid #d0d0d2;
-  border-right: 2px solid #d0d0d2;
+  border-bottom: 1px solid #d0d0d2;
+  border-right: 1px solid #d0d0d2;
   border-bottom-right-radius: 20px;
   margin-top: 0.5em;
   margin-right: 0.5em;
@@ -384,6 +416,11 @@ main > section:nth-of-type(2) section ol li h3{
   flex-grow: 10;
 }
 
+main > section:nth-of-type(2) section ol li h3 a{
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
 main > section:nth-of-type(2) section ol > li:nth-of-type(2) h3{
   border-left: 5px solid #0600ef;
 }
@@ -463,6 +500,12 @@ main > section:nth-of-type(2) button {
   font-weight: 600;
 }
 
+main > section:nth-of-type(2) button:hover {
+  color: var(--primary-color);
+  background-color: var(--background-color2);
+  border: solid 1px var(--primary-color);
+}
+
 /* Styling Explore F1 Topics */
 
 main > section:nth-of-type(3) {
@@ -511,6 +554,11 @@ main > section:nth-of-type(3) ul li h3{
   transform: translateY(-50%);
   transform: translateX(-50%);
   font-size: 1.5em;
+}
+
+main > section:nth-of-type(3) ul li h3 a{
+  color: var(--background-color2);
+  text-decoration: none;
 }
 
 main > section:nth-of-type(3) ul li img{

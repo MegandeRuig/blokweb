@@ -223,11 +223,35 @@ onderdeel apart getyped terwijl deze bij elkaar gevoegd kunnen worden.)
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+De volledige site is responsive. Ook is de uitgebreide navigatie
+voor desktop bestaand uit 3 delen toegevoegd met hierbij ook een werkend
+hamburgen menu gemaakt met js en css. 
+
+Inprincipe ging het responsive maken van de site erg goed, het enige waar ik
+moeite mee had was de image aan de top van de standings op mobile (Image van Lewis
+Hamilton) deze wilde door de position absolute die die moest hebben niet goed
+scalen. Uiteindelijk heb ik dit opgelost door hem om de 100px te veranderen
+d.m.v margin, width en height.
+
+Ook het maken van het hamburger menu van de drivers ging niet volledig soepel. Ik
+hing namelijk lang vast bij het javascript gedeelte. Het menu wilde maar niet
+tevoorschijn komen wanneer het click event plaats vond maar uiteindelijk kwam ik
+erachter dat ik ergens boven in de code nog een display: none; had staan die weg
+moest. Kortom de oplossing was uit eindelijk gevonden alleen ben ik er enorm
+veel tijd mee kwijt geraakt.
+
+Na veel frustratie, ben ik toch enorm blij met wat ik heb neergezet. Ik begon deze
+opleiding met 0 verstand van code en binnenkort wil ik het blok tech gaan volgen.
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="images/resultaat1.png">
+
+<img src="images/resultaat2.png">
+
+<img src="images/resultaat3.png">
+
+<img src="images/resultaat4.png">
 
 </details>
 
@@ -239,8 +263,6 @@ hier screenshot(s) van je eindresultaat
 
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
-
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. Overlay div on div: https://stackoverflow.com/questions/2941189/how-to-overlay-one-div-over-another-div
 2. Flexbox Guide (Algemeen): https://css-tricks.com/snippets/css/a-guide-to-flexbox/
